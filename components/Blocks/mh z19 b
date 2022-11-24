@@ -24,4 +24,6 @@
       "type": "git",
       "url": "https://github.com/TomHumphries/MH-Z19B.git"
     }
+    const gitExtension = vscode.extensions.getExtension<GitExtension>('vscode.git').exports;
+const git = gitExtension.getAPI(1);
   }
